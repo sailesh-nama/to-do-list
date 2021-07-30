@@ -121,10 +121,6 @@ app.get("/:customListName", function(req, res){
   });
 });
 
-app.get("/about", function(req, res){
-  res.render("about");
-});
-
 let port = process.env.PORT;
 if(port == null || port ==""){
   port = 3000;
@@ -133,6 +129,5 @@ if(port == null || port ==""){
 app.listen(port, function() {
   console.log("server started succesfully");
 });
-
 
 // mongo "mongodb+srv://cluster0.stvvp.mongodb.net/myFirstDatabase" --username sailesh_nama
