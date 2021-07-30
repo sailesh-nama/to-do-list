@@ -1,0 +1,97 @@
+html {
+  background-color: #FAF1E6;
+  background-image: -webkit-linear-gradient(75deg, #D83A56 60%, #FAF1E6 50%);
+  min-height: 1000px;
+  font-family: 'Itim', cursive;
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background-color: #D83A56;
+  text-align: center;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #D83A56;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+}
+
+form.item {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #D83A56;
+  color: #fff;
+  font-size: 30px;
+  border-width: 0;
+}
+
+input[type="text"] {
+  text-align: center;
+  font-family: 'Itim', cursive;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #D83A56;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+  text-align: center;
+  color: #DBEDF3;
+  font-family: 'Indie Flower', cursive;
+  font-size: 18px;
+  margin-top: 3%;
+}
